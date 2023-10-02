@@ -16,7 +16,8 @@ if (isset($_POST['press_button'])) {
         $_SESSION['button_messages'] = "";
     }
     
-    $_SESSION['button_messages'] .= "Button pressed " . $_SESSION['button_count'] . "<br>";
+    $_SESSION['button_messages'] .= "Button pressed " . $_SESSION['button_count'] . "<br>"; 
+
 }
 header('location: ./new.php')
 ?>

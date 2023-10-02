@@ -5,7 +5,10 @@
 </head>
 <body>
     <form method="post" action="button.php">
-        <input type="submit" name="press_button" value="Press Button">
+        <input type="submit" name="press_button" value="Add question">
+    </form>
+    <form method="post" action="destroy.php">
+        <input type="submit" name="press_button" value="Clear form">
     </form>
     
     <div id="messages">
