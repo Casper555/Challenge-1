@@ -40,15 +40,20 @@ h2{
     width: 40%;
     height: 4%;
     top: 40%;
+    left: 30%;
 }
 .wachtwoord{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
     height: 4%;
-    top: 45%;
+    top: 50%;
+    left: 30%;
 }
 h3{
     position: relative;
-    
+    font-size: 130%;
+    top: -35%;
+    left: 1%;
+    height: 6%;
 }
