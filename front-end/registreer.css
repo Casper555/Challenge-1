@@ -69,25 +69,54 @@ h2{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 45%;
+    height: 6%;
+    top: 60%;
+    right: 30%;
 }
 .wachtwoord{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 50%;
+    height: 6%;
+    top: 75%;
+    right: 30%;
 }
 h3{
     position: relative;
-    
+    font-size: 130%;
+    top: -30%;
+    left: 1%; 
 }
 .Email{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 40%;
+    height: 6%;
+    top: 45%;
+    right: 30%;
+}
 
+.Antwoord1{
+    position: absolute;
+    background-color: #ffffff;
+    width: 40%;
+    height: 4%;
+    top: 50%;
+    right: 30%;
+}
+.Antwoord2{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 45%;
+    right: 30%;
+}
+.Antwoord3{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 45%;
+    right: 30%;
 }
