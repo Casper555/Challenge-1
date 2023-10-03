@@ -5,10 +5,8 @@ body{
 .balk{
     position: absolute;
     background-color: #EC644A;
-    width:60%;
-    height: 100px;
-    
-    
+    width: 99%;
+    height: 11%;
 }
 .inlog{
     
@@ -26,6 +24,31 @@ body{
     background-color: #f6ef33;
     border-radius: 50%;
     display: inline-block;
-    top: 50px;
+    top: 2%;
     z-index: 1000;
-  }
+    text-align: center;
+}
+h2{
+    position: relative;
+    top: 10%;
+    font-size: 230%;
+    color: #EC644A;
+}
+.gebruikersnaam{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 4%;
+    top: 40%;
+}
+.wachtwoord{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 4%;
+    top: 45%;
+}
+h3{
+    position: relative;
+    
+}
