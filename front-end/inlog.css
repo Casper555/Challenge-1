@@ -20,19 +20,19 @@ body{
 }
 .cirkel {
     position: absolute;
-    height: 170px;
-    width: 170px;
+    height:200px;
+    width: 200px;
     left: 80%;
     background-color: #f6ef33;
     border-radius: 50%;
     display: inline-block;
-    top: 2%;
+    top: 3%;
     z-index: 1000;
     text-align: center;
 }
 h2{
     position: relative;
-    top: 5%;
+    top: 9%;
     font-size: 230%;
     color: #EC644A;
 }
@@ -64,19 +64,24 @@ h3{
     left: 29.95%;
     top: 42.5%;
     height: 5%;
-    width: 39.65%;
+    width: 39.60%;
+    font-size: 130%;
 }
 .wacht{
     position: absolute;
     left: 29.95%;
-    top: 56%;
+    top: 57%;
     height: 5%;
-    width: 39.65%;
+    width: 39.60%;
+    font-size: 130%;
 }
 .sub{
     position: absolute;
-    left: 60.05%;
-    top: 63%;
-    height: 3%;
-    width: 10%;
+    left: 55.05%;
+    top: 67%;
+    height: 6%;
+    width: 15%;
+    border-radius: 35px;
+    background-color: #EC644A;
+    font-size: 120%;
 }
