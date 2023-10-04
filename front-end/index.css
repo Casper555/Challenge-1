@@ -1,0 +1,219 @@
+body{
+    background-color: #004F59;
+}
+
+.balk{
+    position: absolute;
+    background-color: #EC644A;
+    width: 70%;
+    height: 11%;
+    left: 15%;
+    top: 9%;
+}
+    
+
+.inlog{
+    
+    position: relative;
+    text-align: center;
+    top: -5%;
+    font-size: 140%;
+    
+}
+.cirkel {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 80%;
+    background-color: #f6ef33;
+    border-radius: 50%;
+    display: inline-block;
+    top: 50px;
+    z-index: 1000;
+  }
+
+
+.inlog{
+    
+    position: relative;
+    text-align: center;
+    top: -5%;
+    font-size: 140%;
+    
+}
+.cirkel {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 80%;
+    background-color: #f6ef33;
+    border-radius: 50%;
+    display: inline-block;
+    top: 2%;
+    z-index: 1000;
+    text-align: center;
+}
+h2{
+    position: relative;
+    top: 10%;
+    font-size: 230%;
+    color: #EC644A;
+}
+.Vraag1{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 35%;
+    right: 30%;
+}
+.Vraag2{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 53%;
+    right: 30%;
+}
+.Vraag3{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 71%;
+    right: 30%;
+}
+
+.Vraag4{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 89%;
+    right: 30%;
+}
+.Vraag5{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 107%;
+    right: 30%;
+}
+.Vraag6{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 125%;
+    right: 30%;
+}
+.Vraag7{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 143%;
+    right: 30%;
+}
+.Vraag8{
+    position: absolute;
+    background-color: #EC644A;
+    width: 40%;
+    height: 6%;
+    top: 161%;
+    right: 30%;
+}
+
+h3{
+    position: relative;
+    font-size: 130%;
+    top: -30%;
+    left: 1%; 
+}
+
+.Antwoord1{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 43%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord2{
+    position: absolute;
+    background-color: #ffffff;
+    width:39.5%;
+    height: 6%;
+    top:61%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord3{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 79%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord4{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 97%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord5{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 115%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord6{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 133%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord7{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 151%;
+    right: 30%;
+    font-size: 130%;
+}
+.Antwoord8{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 169%;
+    right: 30%;
+    font-size: 130%;
+}
+
+
+
+.submit{
+    position: absolute;
+    background-color: #EC644A;
+    width: 15%;
+    height: 6%;
+    top: 180%;
+    right: 30%;
+    font-size: 90%;
+    border-radius: 35px;
+}
