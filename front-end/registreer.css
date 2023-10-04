@@ -5,11 +5,13 @@ body{
 .balk{
     position: absolute;
     background-color: #EC644A;
-    width:60%;
-    height: 100px;
-    
-    
+    width: 70%;
+    height: 11%;
+    left: 15%;
+    top: 9%;
 }
+    
+
 .inlog{
     
     position: relative;
@@ -29,16 +31,8 @@ body{
     top: 50px;
     z-index: 1000;
   }
-  body{
-    background-color: #004F59;
-}
 
-.balk{
-    position: absolute;
-    background-color: #EC644A;
-    width: 99%;
-    height: 11%;
-}
+
 .inlog{
     
     position: relative;
@@ -70,7 +64,7 @@ h2{
     background-color: #EC644A;
     width: 40%;
     height: 6%;
-    top: 60%;
+    top: 65%;
     right: 30%;
 }
 .wachtwoord{
@@ -78,7 +72,7 @@ h2{
     background-color: #EC644A;
     width: 40%;
     height: 6%;
-    top: 75%;
+    top: 85%;
     right: 30%;
 }
 h3{
@@ -100,23 +94,32 @@ h3{
     position: absolute;
     background-color: #ffffff;
     width: 40%;
-    height: 4%;
-    top: 50%;
+    height: 6%;
+    top: 53%;
     right: 30%;
 }
 .Antwoord2{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #ffffff;
     width: 40%;
     height: 6%;
-    top: 45%;
+    top:73%;
     right: 30%;
 }
 .Antwoord3{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #ffffff;
     width: 40%;
     height: 6%;
-    top: 45%;
+    top: 93%;
+    right: 30%;
+}
+
+.submit{
+    position: absolute;
+    background-color: #ffffff;
+    width: 40%;
+    height: 6%;
+    top: 100%;
     right: 30%;
 }
