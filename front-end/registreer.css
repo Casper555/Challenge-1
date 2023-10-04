@@ -64,7 +64,7 @@ h2{
     background-color: #EC644A;
     width: 40%;
     height: 6%;
-    top: 65%;
+    top: 53%;
     right: 30%;
 }
 .wachtwoord{
@@ -72,7 +72,7 @@ h2{
     background-color: #EC644A;
     width: 40%;
     height: 6%;
-    top: 85%;
+    top: 71%;
     right: 30%;
 }
 h3{
@@ -86,40 +86,41 @@ h3{
     background-color: #EC644A;
     width: 40%;
     height: 6%;
-    top: 45%;
+    top: 35%;
     right: 30%;
 }
 
 .Antwoord1{
     position: absolute;
     background-color: #ffffff;
-    width: 40%;
+    width: 39.5%;
     height: 6%;
-    top: 53%;
+    top: 43%;
     right: 30%;
 }
 .Antwoord2{
     position: absolute;
     background-color: #ffffff;
-    width: 40%;
+    width:39.5%;
     height: 6%;
-    top:73%;
+    top:61%;
     right: 30%;
 }
 .Antwoord3{
     position: absolute;
     background-color: #ffffff;
-    width: 40%;
+    width: 39.5%;
     height: 6%;
-    top: 93%;
+    top: 79%;
     right: 30%;
 }
 
 .submit{
     position: absolute;
-    background-color: #ffffff;
-    width: 40%;
+    background-color: #EC644A;
+    width: 15%;
     height: 6%;
-    top: 100%;
+    top: 90%;
     right: 30%;
+    font-size: 90%;
 }
