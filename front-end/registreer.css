@@ -5,11 +5,13 @@ body{
 .balk{
     position: absolute;
     background-color: #EC644A;
-    width:60%;
-    height: 100px;
-    
-    
+    width: 70%;
+    height: 11%;
+    left: 15%;
+    top: 9%;
 }
+    
+
 .inlog{
     
     position: relative;
@@ -29,16 +31,8 @@ body{
     top: 50px;
     z-index: 1000;
   }
-  body{
-    background-color: #004F59;
-}
 
-.balk{
-    position: absolute;
-    background-color: #EC644A;
-    width: 99%;
-    height: 11%;
-}
+
 .inlog{
     
     position: relative;
@@ -69,25 +63,64 @@ h2{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 45%;
+    height: 6%;
+    top: 53%;
+    right: 30%;
 }
 .wachtwoord{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 50%;
+    height: 6%;
+    top: 71%;
+    right: 30%;
 }
 h3{
     position: relative;
-    
+    font-size: 130%;
+    top: -30%;
+    left: 1%; 
 }
 .Email{
     position: absolute;
     background-color: #EC644A;
     width: 40%;
-    height: 4%;
-    top: 40%;
+    height: 6%;
+    top: 35%;
+    right: 30%;
+}
 
+.Antwoord1{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 43%;
+    right: 30%;
+}
+.Antwoord2{
+    position: absolute;
+    background-color: #ffffff;
+    width:39.5%;
+    height: 6%;
+    top:61%;
+    right: 30%;
+}
+.Antwoord3{
+    position: absolute;
+    background-color: #ffffff;
+    width: 39.5%;
+    height: 6%;
+    top: 79%;
+    right: 30%;
+}
+
+.submit{
+    position: absolute;
+    background-color: #EC644A;
+    width: 15%;
+    height: 6%;
+    top: 90%;
+    right: 30%;
+    font-size: 90%;
 }
