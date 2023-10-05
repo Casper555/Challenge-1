@@ -1,8 +1,8 @@
 <?php
 // Database configuration
 $servername = "localhost";
-$username = "admin";
-$password = "admin";
+$username = "timo";
+$password = "timo";
 $dbname = "google_forms_clone";
 
 // Create connection

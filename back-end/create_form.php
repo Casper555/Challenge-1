@@ -35,5 +35,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <input type="submit" value="Create Form">
     </form>
+
+    <h2>Add Question</h2>
+    <form method="post" action="add_question.php">
+        <label for="question_text">Question Text:</label>
+        <input type="text" name="question_text" required><br>
+        <input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
+        <input type="submit" value="Add Question">
+    </form>
 </body>
 </html>
