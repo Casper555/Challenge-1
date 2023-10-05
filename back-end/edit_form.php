@@ -38,4 +38,9 @@ $form_title = $row['title'];
     <h2>Edit Form</h2>
     <form method="post" action="">
         <label for="form_title">Form Title:</label>
-        <input type="text" name="form_title" value="<?php echo $form_title; ?>" required><
+        <input type="text" name="form_title" value="<?php echo $form_title; ?>" required><br>
+        <input type="hidden" name="form_id" value="<?php echo $form_id; ?>">
+        <input type="submit" value="Save Changes">
+    </form>
+</body>
+</html>
