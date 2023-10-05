@@ -8,7 +8,8 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $form_id = $_POST['form_id'];
+    // Ensure 'form_id' is an integer
+    $form_id = intval($_POST['form_id']);
     $question_text = $_POST['question_text'];
 
     // Insert question data into the database
