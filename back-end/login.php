@@ -1,27 +1,41 @@
 <?php
 session_start();
-require_once "mysqli.php";
+require_once('config.php');
 
-function checkInput() {
-    foreach($_POST as $key => $value) {
-        $_POST[$key] = htmlentities(strip_tags($value));
-    }
-}
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-if (isset($_POST['login'])) {
-    checkInput();
-    $Username = $_POST['Username'];
-    $Pass = $_POST['Pass'];
-    $select = mysqli_query($conn, "SELECT * FROM tb_gebruiker WHERE Username = '$Username' AND Pass = '$Pass'");
-    $row = mysqli_fetch_array($select);
-    if (is_array($row)) {
-        $_SESSION["Username"] = $row['Username'];
-        $_SESSION["Pass"] = $row['Pass'];
-        $_SESSION["online"] = true;
-        $_SESSION["admin"] = $row["adminPerm"];
-        header("Location: ./new/index.php");
+    // Retrieve user data from the database
+    $sql = "SELECT id, username, password FROM users WHERE username='$username'";
+    $result = mysqli_query($conn, $sql);
+    $row = mysqli_fetch_assoc($result);
+
+    if ($row && password_verify($password, $row['password'])) {
+        $_SESSION['user_id'] = $row['id'];
+        $_SESSION['username'] = $row['username'];
+        header("Location: create_form.php");
     } else {
-        $errorMessage = "Invalid Username or Password!";
+        echo "Invalid username or password.";
     }
 }
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form method="post" action="">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
