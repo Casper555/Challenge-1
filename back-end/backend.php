@@ -4,8 +4,8 @@
 // include "db_connector.php"
 $servername = "localhost";
 $username = "root";
-$password = "";
-$dbname = "klaag_temp";
+$password = "root";
+$dbname = "db_database";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
