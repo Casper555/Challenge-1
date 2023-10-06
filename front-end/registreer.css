@@ -165,22 +165,7 @@ h4{
 }
 
 
-/* Mobile */
-@media (max-width: 575.98px) {
-    :root {
-      --fontSizeMultiplier: 4.3;
-      --marpadMultiplier: 3.2;
-    }
-  }
-  
-  /* Mobile (Landscape) & Tablet */
-  @media (min-width: 576px) and (max-width: 1199.98px) {
-    :root {
-      --fontSizeMultiplier: 2;
-      --marpadMultiplier: 2;
-    }
-  }
-  
+
   /* Laptop & Desktop */
   @media (min-width: 1200px) {
     :root {
