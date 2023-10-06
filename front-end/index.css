@@ -1,5 +1,5 @@
 body{
-    background-color: #004F59;
+    background-color: #9bb5f9;
 }
 
 .balk{
@@ -10,7 +10,18 @@ body{
     left: 15%;
     top: 9%;
 }   
-
+.cirkel {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 79%;
+    background-color: #adff8a;
+    border-radius: 50%;
+    display: inline-block;
+    top: 3%;
+    z-index: 1000;
+    text-align: center;
+}
 .inlog{
     
     position: relative;
@@ -19,39 +30,7 @@ body{
     font-size: 140%;
     
 }
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 50px;
-    z-index: 1000;
-  }
 
-
-.inlog{
-    
-    position: relative;
-    text-align: center;
-    top: -5%;
-    font-size: 140%;
-    
-}
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 2%;
-    z-index: 1000;
-    text-align: center;
-}
 h2{
     position: relative;
     top: 10%;
@@ -219,7 +198,7 @@ h3{
     color: black;
     border: 2px solid #EC644A;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+    cursor: pointer;
 }
 
 .submit:hover {
