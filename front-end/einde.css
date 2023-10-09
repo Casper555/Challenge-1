@@ -66,10 +66,3 @@ h2{
 
   
   
-  /* Laptop & Desktop */
-  @media (min-width: 1200px) {
-    :root {
-      --fontSizeMultiplier: 1;
-      --marpadMultiplier: 1;
-    }
-}
