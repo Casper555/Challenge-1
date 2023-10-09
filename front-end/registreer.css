@@ -10,7 +10,6 @@ body{
     left: 15%;
     top: 9%;
 }
-    
 
 .inlog{
     
@@ -36,6 +35,7 @@ h2{
     font-size: 230%;
     color: #000000;
 }
+
 .gebruikersnaam{
     position: absolute;
     background-color: #7d92ba;
