@@ -4,7 +4,7 @@ body{
 
 .balk{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 70%;
     height: 11%;
     left: 15%;
@@ -19,27 +19,11 @@ body{
     font-size: 140%;
     
 }
-.cirkel {
-    position: absolute;
-    height:200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 3%;
-    z-index: 1000;
-    text-align: center;
-}
-h2{
-    position: relative;
-    top: 9%;
-    font-size: 230%;
-    color: #EC644A;
-}
+
+
 .gebruikersnaam{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 40%;
     height: 5%;
     top: 35%;
@@ -47,7 +31,7 @@ h2{
 }
 .wachtwoord{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 40%;
     height: 5%;
     top: 50%;
@@ -83,17 +67,17 @@ h3{
     height: 6%;
     width: 15%;
     border-radius: 35px;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     font-size: 120%;
     text-decoration: none;
     color: black;
-    border: 2px solid #EC644A;
+    border: 2px solid #7d92ba;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
 }
   .sub:hover {
-    background-color: #ee4725;
-    border: 4px solid #ee4725;
+    background-color: #6F8ABB;
+    border: 4px solid #6F8ABB;
     transition-duration: 0.4s;
 
     color: white;
@@ -108,18 +92,18 @@ h3{
     height: 6%;
     width: 15%;
     border-radius: 35px;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     font-size: 120%;
     text-decoration: none;
     color: black;
 
-    border: 2px solid #EC644A;
+    border: 2px solid #7d92ba;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
 }
   .regi:hover {
-    background-color: #ee4725;
-    border: 4px solid #ee4725;
+    background-color: #6F8ABB;
+    border: 4px solid #6F8ABB;
     transition-duration: 0.4s;
 
     color: white;

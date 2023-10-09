@@ -1,35 +1,19 @@
 body{
-    background-color: #004F59;
+    background-color: #9bb5f9;
 }
 
 .balk{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 70%;
     height: 11%;
     left: 15%;
     top: 9%;
 }
 
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 50px;
-    z-index: 1000;
-  }
 
 
-h2{
-    position: relative;
-    top: 10%;
-    font-size: 230%;
-    color: #EC644A;
-}
+
 .cirkel {
     position: absolute;
     height: 200px;

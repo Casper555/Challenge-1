@@ -1,10 +1,10 @@
 body{
-    background-color: #004F59;
+    background-color: #9bb5f9;
 }
 
 .balk{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 70%;
     height: 11%;
     left: 15%;
@@ -21,8 +21,6 @@ body{
     
 }
 
-
-
 .inlog{
     
     position: relative;
@@ -31,27 +29,16 @@ body{
     font-size: 140%;
     
 }
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 3%;
-    z-index: 1000;
-    text-align: center;
-}
+
 h2{
     position: relative;
     top: 10%;
     font-size: 230%;
-    color: #EC644A;
+    color: #000000;
 }
 .gebruikersnaam{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 40%;
     height: 6%;
     top: 53%;
@@ -59,7 +46,7 @@ h2{
 }
 .wachtwoord{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 40%;
     height: 6%;
     top: 71%;
@@ -73,7 +60,7 @@ h3{
 }
 .Email{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 40%;
     height: 6%;
     top: 35%;
@@ -110,7 +97,7 @@ h3{
 
 .submit{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #7d92ba;
     width: 15%;
     height: 6%;
     top: 90%;
@@ -119,14 +106,14 @@ h3{
     color: black;
     font-size: 90%;
     border-radius: 35px;
-    border: 2px solid #EC644A;
+    border: 2px solid #7d92ba;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    
 }
 
   .submit:hover {
-    background-color: #ee4725;
-    border: 4px solid #ee4725;
+    background-color: #6F8ABB;
+    border: 4px solid #6F8ABB;
     transition-duration: 0.4s;
 
     color: white;
