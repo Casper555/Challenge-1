@@ -11,23 +11,9 @@ body{
     top: 9%;
 }
 
-
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 2%;
-    z-index: 1000;
-    text-align: center;
-}
-
 .contact{
     position: absolute;
-    background-color: #f6ef33;
+    background-color: #7d92ba;
     width: 40%;
     height: 40%;
     top: 50%;
@@ -44,7 +30,3 @@ body{
     font-size: 140%;
     
 }
-
-
-  
-  
