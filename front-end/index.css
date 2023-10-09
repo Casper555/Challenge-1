@@ -4,24 +4,17 @@ body{
 
 .balk{
     position: absolute;
+<<<<<<< Updated upstream
     background-color: #7d92ba;
+=======
+    background-color: #5683E4;
+>>>>>>> Stashed changes
     width: 70%;
     height: 11%;
     left: 15%;
     top: 9%;
 }   
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 79%;
-    background-color: #adff8a;
-    border-radius: 50%;
-    display: inline-block;
-    top: 3%;
-    z-index: 1000;
-    text-align: center;
-}
+
 .inlog{
     
     position: relative;
@@ -35,11 +28,11 @@ h2{
     position: relative;
     top: 10%;
     font-size: 230%;
-    color: #EC644A;
+    color: #000000;
 }
 .Vraag1{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 35%;
@@ -47,7 +40,7 @@ h2{
 }
 .Vraag2{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 53%;
@@ -55,7 +48,7 @@ h2{
 }
 .Vraag3{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 71%;
@@ -64,7 +57,7 @@ h2{
 
 .Vraag4{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 89%;
@@ -72,7 +65,7 @@ h2{
 }
 .Vraag5{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 107%;
@@ -80,7 +73,7 @@ h2{
 }
 .Vraag6{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 125%;
@@ -88,7 +81,7 @@ h2{
 }
 .Vraag7{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 143%;
@@ -96,7 +89,7 @@ h2{
 }
 .Vraag8{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 40%;
     height: 6%;
     top: 161%;
@@ -187,7 +180,7 @@ h3{
 
 .submit{
     position: absolute;
-    background-color: #EC644A;
+    background-color: #5683E4;
     width: 15%;
     height: 6%;
     top: 180%;
@@ -196,7 +189,7 @@ h3{
     border-radius: 35px;
     text-decoration: none;
     color: black;
-    border: 2px solid #EC644A;
+    border: 2px solid #5683E4;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
 }

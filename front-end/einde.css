@@ -11,17 +11,6 @@ body{
     top: 9%;
 }
 
-.cirkel {
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    left: 80%;
-    background-color: #f6ef33;
-    border-radius: 50%;
-    display: inline-block;
-    top: 50px;
-    z-index: 1000;
-  }
 
 
 h2{
