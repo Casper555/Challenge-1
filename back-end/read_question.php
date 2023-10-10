@@ -5,7 +5,8 @@ include('config.php');
 // Function to fetch questions from the database
 function getQuestions($connection) {
     // SQL query to fetch all data from tb_question
-    $sql = "SELECT * FROM tb_question";
+    $sql = "SELECT * FROM tb_question WHERE form_id = 1";
+
 
     // Execute the query
     $result = mysqli_query($connection, $sql);
