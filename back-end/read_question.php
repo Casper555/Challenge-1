@@ -1,4 +1,7 @@
 <?php
+// Include the configuration file to establish the database connection
+include('config.php');
+
 // Function to fetch questions from the database
 function getQuestions($connection) {
     // SQL query to fetch all data from tb_question
@@ -27,13 +30,6 @@ function getQuestions($connection) {
     }
 
     return $questions;
-}
-
-// Assuming you have a database connection established
-$connection = mysqli_connect("hostname", "username", "password", "database_name");
-
-if (!$connection) {
-    die("Connection failed: " . mysqli_connect_error());
 }
 
 // Call the function to get questions
