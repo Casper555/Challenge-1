@@ -13,7 +13,7 @@
 </style>
 </head>
 <body>
-    <div> <a href="index.html">  <img src="pijl.png" width="140px" ></a></div>
+    <div> <a href="index.php">  <img src="pijl.png" width="140px" ></a></div>
 
     <div class="balk">
         <div class="inlog"><h1>Bedankt voor het invullen!</h1></div>

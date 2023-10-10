@@ -27,6 +27,6 @@
         <input type="text" class="Antwoord2" name="fname" placeholder="Vul hier in..."><br><br>
         <input type="text" class="Antwoord3" name="lname" placeholder="Vul hier in..."><br><br>
       </form>
-      <a class="submit" href="inlog.html"><h4>Inloggen</h4></a>
+      <a class="submit" href="inlog.php"><h4>Inloggen</h4></a>
 </body>
 </html>

@@ -25,8 +25,8 @@
         <input type="text" class="geb" placeholder="Vul hier in..."><br><br>
         <input type="text" class="wacht" placeholder="Vul hier in..."><br><br>
       </form>
-    <a class="sub" href="index.html"><h4>Inloggen</h4></a>
-    <a class="regi" href="registreer.html"><h4>Registreer</h4></a>
+    <a class="sub" href="index.php"><h4>Inloggen</h4></a>
+    <a class="regi" href="registreer.php"><h4>Registreer</h4></a>
 
 </body>
 </html>

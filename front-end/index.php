@@ -17,7 +17,7 @@
     <div class="balk">
         <div class="inlog"><h1>Vragenlijst</h1></div>
     </div>
-    <div> <a href="inlog.html">  <img src="pijl.png" width="140px" ></a></div>
+    <div> <a href="inlog.php">  <img src="pijl.png" width="140px" ></a></div>
     <div class="Vraag1"><h3>Vraag 1:</h3></div>
     <div class="Vraag2"><h3>Vraag 2:</h3></div>
     <div class="Vraag3"><h3>Vraag 3:</h3></div>
@@ -36,7 +36,7 @@
     <input type="text" class="Antwoord7">
     <input type="text" class="Antwoord8">
 
-    <form action="einde.html">
+    <form action="einde.php">
         <input type="submit" class="submit" value="Verzenden">
       </form>
       <div class="einde"></div>
