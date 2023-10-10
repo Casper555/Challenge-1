@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once('config.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -21,21 +20,3 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-</head>
-<body>
-    <h2>Login</h2>
-    <form method="post" action="">
-        <label for="username">Username:</label>
-        <input type="text" name="username" required><br>
-
-        <label for="password">Password:</label>
-        <input type="password" name="password" required><br>
-
-        <input type="submit" value="Login">
-    </form>
-</body>
-</html>
